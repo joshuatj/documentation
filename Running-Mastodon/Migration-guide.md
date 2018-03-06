@@ -29,7 +29,7 @@ At a high level, you'll need to copy over the following:
 - The Postgres database (using [pg\_dump](https://www.postgresql.org/docs/9.1/static/backup-dump.html))
 - The `~/live/.env.production` file, which contains server config and secrets
 
-Less crucially, you'll proably also want to copy the following for convenience:
+Less crucially, you'll probably also want to copy the following for convenience:
 
 - The nginx config (under `/etc/nginx/sites-available/default`)
 - The systemd config files (`/etc/systemd/system/mastodon-*.service`), which may contain your server tweaks and customizations
